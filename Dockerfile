@@ -1,7 +1,7 @@
 # OS
 FROM ubuntu:22.04
 
-#Install Shit
+#Install dependencies
 RUN apt update && apt upgrade -y
 RUN apt-get upgrade -y
 RUN apt install -y wget
